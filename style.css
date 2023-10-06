@@ -1,0 +1,164 @@
+/* Estilo para o corpo da página */
+body {
+    background-color: royalblue;
+    /* Cor de fundo do corpo da página */
+    font: normal 15pt arial;
+    /* Fonte padrão e tamanho do texto */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    color: aliceblue;
+    /* Cor do texto do cabeçalho */
+    text-align: center;
+    /* Alinhamento do texto ao centro */
+}
+
+/* Estilo para o título principal (h1) */
+h1 {
+    font-size: 36px;
+    /* Tamanho da fonte do título principal */
+    color: aliceblue;
+    /* Cor do texto do título principal */
+}
+
+/* Estilo para a seção principal */
+section {
+    background-color: azure;
+    /* Cor de fundo da seção principal */
+    border-radius: 10px;
+    /* Borda arredondada */
+    padding: 15px;
+    /* Espaçamento interno */
+    width: 500px;
+    /* Largura da seção */
+    margin: auto;
+    /* Centraliza a seção na página */
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.428);
+    /* Sombra */
+}
+
+/* Estilizando todos os botões de opção */
+input[type="radio"] {
+    margin-right: 5px;
+    /* Espaçamento à direita dos botões de opção */
+}
+
+/* Estilizando os rótulos associados aos botões de opção */
+label {
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+    color: #333;
+    /* Cor do texto */
+}
+
+/* Estilizando o botão de opção quando está marcado (selecionado) */
+input[type="radio"]:checked+label {
+    color: #ff9900;
+    /* Cor do texto quando selecionado */
+}
+
+/* Estilizando os rótulos dos inputs radio */
+label {
+    display: inline-block;
+    /* Faz com que os rótulos fiquem em linha */
+    margin-right: 10px;
+    /* Adiciona margem à direita para espaçamento */
+}
+
+/* Estilizando os inputs radio */
+input[type="radio"] {
+    vertical-align: middle;
+    /* Alinha verticalmente com os rótulos */
+}
+
+/* Estilizando a imagem */
+img {
+    width: 50%;
+    /* Largura da imagem */
+    border-radius: 10%;
+    /* Borda arredondada */
+    margin: 12px;
+    /* Espaçamento externo */
+}
+
+/* Estilizando o rótulo associado ao campo de entrada numérica */
+label {
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+}
+
+/* Estilizando o campo de entrada numérica */
+input[type="number"] {
+    width: 100px;
+    /* Largura do campo */
+    padding: 5px;
+    /* Espaçamento interno */
+    border: 1px solid #ccc;
+    /* Borda */
+    border-radius: 5px;
+    /* Borda arredondada */
+    font-size: 16px;
+    /* Tamanho da fonte */
+}
+
+/* Estilizando o campo de entrada numérica quando em foco (quando o usuário clica nele) */
+input[type="number"]:focus {
+    outline: none;
+    /* Removendo a borda de foco padrão */
+    box-shadow: 0 0 5px #007bff;
+    /* Sombra quando em foco */
+}
+
+/* Estilo do botão */
+input[type="button"] {
+    background-color: #007bff;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    padding: 10px 20px;
+    /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    border: none;
+    /* Remova a borda padrão */
+    border-radius: 5px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Mude o cursor para um ponteiro ao passar o mouse */
+}
+
+/* Estilo para o botão quando o mouse passa por cima */
+input[type="button"]:hover {
+    background-color: #0056b3;
+    /* Cor de fundo quando passar o mouse */
+}
+
+/* Estilização geral para divs e parágrafos */
+div,
+p {
+    padding: 6px;
+    /* Espaçamento interno */
+    margin: 10px;
+    /* Espaçamento externo */
+    text-align: center;
+    /* Alinhamento do texto ao centro */
+}
+
+/* Estilo para links */
+a {
+    color: aliceblue;
+    /* Cor do texto do link */
+    text-decoration: none;
+    /* Remover sublinhado do link */
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    /* Alinhamento do texto ao centro */
+    font-style: italic;
+    /* Estilo de fonte itálico */
+    color: aliceblue;
+    /* Cor do texto do rodapé */
+}

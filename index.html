@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta tag para configurar a escala inicial em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página exibido na guia do navegador -->
+    <title>Exercícios JavaScript (Parte 2)</title>
+    <!-- Link para o arquivo CSS externo que será aplicado à página -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Título principal da página -->
+        <h1>Verificador de Idade</h1>
+        <!-- Subtítulo da página -->
+        <h2>Exercícios JavaScript (Parte 2)</h2>
+    </header>
+    <!-- Seção principal da página -->
+    <section>
+        <!-- Primeira div vazia (possivelmente para uso futuro) -->
+        <div></div>
+        <!-- Segunda div que contém os elementos do formulário -->
+        <div>
+            <!-- Campo para inserir o ano de nascimento -->
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <!-- Campo para selecionar o sexo -->
+            <p>Sexo:
+                <!-- Input de rádio para "Masculino" com rótulo -->
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="masc">Masculino</label>
+                <!-- Input de rádio para "Feminino" com rótulo -->
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <!-- Botão para verificar a idade -->
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <!-- Terceira div para exibir o resultado da verificação -->
+        <div id="res">
+            <!-- Mensagem inicial antes da verificação -->
+            <p>Preencha os dados acima para verificar o resultado</p>
+        </div>
+    </section>
+    <!-- Rodapé da página -->
+    <footer>
+        <!-- Texto de direitos autorais com um link para o site "CursoEmVídeo" -->
+        <p>&copy; <a href="https://www.cursoemvideo.com/" target="_blank">CursoEmVídeo</a></p>
+    </footer>
+    <!-- Inclusão do arquivo JavaScript externo para funcionalidade -->
+    <script src="script.js"></script>
+</body>
+
+</html>
